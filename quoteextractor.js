@@ -26,4 +26,4 @@ const outputPath = path.join(__dirname, 'hindiquotes.csv');
 // Write CSV content to file
 fs.writeFileSync(outputPath, csvContent, 'utf8');
 
-console.log(`✅ CSV file has been created at: ${outputPath}`);
+console.log(` CSV file has been created at: ${outputPath}`);
